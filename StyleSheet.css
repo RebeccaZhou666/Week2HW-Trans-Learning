@@ -1,0 +1,340 @@
+/* */
+
+html {
+	font-family: monospace, sans-serif;
+	background-color: #0f0f0f;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,255,255,0.8);
+}
+
+body{
+	display: block;
+	margin: 0; 
+}
+
+h2{
+	display: block;
+	font-size: 2em;
+	margin: 1em;
+	font-weight: bold;
+	color: #64B2CD;
+}
+
+.addH2{
+	color: #ffffff;
+	font-size: 1.2em
+	/*padding: 10px;*/
+}
+
+
+
+button{
+	-webkit-appearance: button;
+	-webkit-writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	align-items: flex-start;
+	text-transform: none;
+	text-indent: none;
+	text-shadow: none;
+	box-sizing: border-box;
+	font: 400 11px;
+	padding: 10px 10px 5px
+	border-width: 0;
+	border-style: transparent;
+	border-image: initial;
+}
+
+p{
+	display: block;
+	/*margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 1em;
+	margin-inline-end: 1em;*/
+	font-size: 14px;
+}
+
+.styleTitle{
+	position: fixed;
+	width: 100%;
+	height: 100%
+	background-color:#0f0f0f;
+	transition: opacity 500ms ease;
+	font-family: monospace, sans-serif;
+	text-align: center;
+	align-items: flex-start;
+	padding-bottom: 50px;
+	/*background-color: red;*/
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	/*background-color: red;*/
+}
+
+.left{
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-right: 20px;
+	margin-top: 20%;
+	/*background-color: red;*/
+}
+
+.right{
+	float: right;
+	width: 20%;
+	height: 100%;
+	margin-left: 20px;
+	margin-top: 20%;
+	/*background-color: red;*/
+}
+
+.main{
+	overflow: hidden;
+	/*background-color: red;
+	/*margin: auto;*/
+}
+
+
+.video{
+	height: 400px;
+}
+
+.upButtonA{
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-bottom: 20px;
+	margin-top: 20px;*/
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	height: auto;
+	border: 0;
+	border-bottom: 2px solid #01D28E;
+	border-top:  2px solid #01D28E;
+	border-left: 2px solid #01D28E;
+	border-right: 2px solid #01D28E;
+	background-color: transparent;
+	color: #ffffff;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.upButtonB{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	height: 180px
+	border: 0;
+	border-bottom: 2px solid #B2E4D5;
+	border-top:  2px solid #B2E4D5;
+	border-left: 2px solid #B2E4D5;
+	border-right: 2px solid #B2E4D5;
+	background-color: transparent;
+	color: #ffffff;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.downButtonA{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-bottom: 20px;
+	margin-top: 20px;*/
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	height: 180px
+	border: 0;
+	border-bottom: 2px solid #DA9833;
+	border-top:  2px solid #DA9833;
+	border-left: 2px solid #DA9833;
+	border-right: 2px solid #DA9833;
+	background-color: transparent;
+	color: #ffffff;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.downButtonB{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	height: 180px
+	border: 0;
+	border-bottom: 2px solid #F0D78C;
+	border-top:  2px solid #F0D78C;
+	border-left: 2px solid #F0D78C;
+	border-right: 2px solid #F0D78C;
+	background-color: transparent;
+	color: #ffffff;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.buttonPredict{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 18px;
+	display: inline-block;
+	width: 320px;
+	height: 80px
+	border: 0;
+	border-bottom: 2px solid #64B2CD;
+	border-top:  2px solid #64B2CD;
+	border-left: 2px solid #64B2CD;
+	border-right: 2px solid #64B2CD;
+	background-color: #64B2CD;
+	font-color: #000000;
+	font-weight: bold;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.startGame{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 18px;
+	display: inline-block;
+	width: 180px;
+	height: 80px
+	border: 0;
+	border-bottom: 2px solid #F2A6A6;
+	border-top:  2px solid #F2A6A6;
+	border-left: 2px solid #F2A6A6;
+	border-right: 2px solid #F2A6A6;
+	background-color: #F2A6A6;
+	font-color: #000000;
+	font-weight: bold;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.play{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 16px;
+	display: inline-block;
+	width: 100px;
+	height: 60px
+	border: 0;
+	border-bottom: 2px solid #F2A6A6;
+	border-top:  2px solid #F2A6A6;
+	border-left: 2px solid #F2A6A6;
+	border-right: 2px solid #F2A6A6;
+	background-color: #F2A6A6;
+	font-color: #000000;
+	font-weight: bold;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.replay{
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 16px;
+	display: inline-block;
+	width: 100px;
+	height: 60px
+	border: 0;
+	border-bottom: 2px solid #64B2CD;
+	border-top:  2px solid #64B2CD;
+	border-left: 2px solid #64B2CD;
+	border-right: 2px solid #64B2CD;
+	background-color: #64B2CD;
+	font-color: #000000;
+	font-weight: bold;
+	text-align: center;
+	transition: background-color 300ms ease-in-out;
+	font-family: monospace;
+}
+
+.exampleStyle{
+	float: 120px left;
+}
+
+.predict{
+	color: #01D28E;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+canvas{
+	display: block;
+	margin: 0 auto;
+}
+
+.canvasDesign{
+	margin: 0 auto;
+	width: 900px;
+	color: #ffffff;
+}
+
+a:link {
+    color:#01D28E;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+	font-size: 1em;
+    text-decoration:underline;
+}
+a:visited {
+    color:#64B2CD;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+	font-size: 1em;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#F2A6A6;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+	font-size: 1em;
+    text-decoration:none;
+}
+    
+a:active {
+    color:#F2A6A6;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+	font-size: 1em;
+    text-decoration:none;
+}
+
+
+
+
