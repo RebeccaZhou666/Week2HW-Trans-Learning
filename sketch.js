@@ -269,6 +269,7 @@ function draw(){
 
       pipeN = pipe.length;
       //location.reload(); // reload the page
+      //console.log('pipe:', pipeN);
     }
 
     if (flag){
@@ -287,6 +288,8 @@ function draw(){
                 y : Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height
             }); 
         }
+        
+        pipeN = pipe.length;
 
         // detect collision
         
