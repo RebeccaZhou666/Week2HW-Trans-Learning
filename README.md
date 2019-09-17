@@ -1,5 +1,6 @@
 # Week2HW-Trans-Learning
 Self identify gestures to control the CRAZY Flappy bird!!!
+See https://rebeccazhou666.github.io/Week2HW-Trans-Learning/
 
 Instruction:
 1. Define your own examples to control the bird UP or DOWN
