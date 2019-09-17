@@ -12,3 +12,5 @@ Instruction:
 2. Play Game
   2.1 Click "Play" to start.
   2.2 If dead, click "Replay" first and then "Play".
+  
+Special Thanks to Vibert Thio for his webpage design references.
