@@ -193,6 +193,7 @@ function gotResults(err, results) {
     console.error(err);
   }else{
     select('#result').html(results.label);
+    select('#result2').html(results.label);
     //select('#confidence').html(`${confidences[results.label] * 100} %`);
     
     //const confidences = results.confidencesByLabel;
